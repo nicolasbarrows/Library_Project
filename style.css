@@ -1,0 +1,17 @@
+body {
+    background-color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+  }
+  
+  div {
+    margin-left: 20px;
+  }
+
+  thead {
+    background-color:#1DB954;
+  }
+
+  tbody tr {
+    background-color: #FFF;
+  }

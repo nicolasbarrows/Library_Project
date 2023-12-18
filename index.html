@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Rethink+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <title>Library Project</title>
+  </head>
+  <body>
+    <main
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      "
+    >
+      <div>
+        <h1>Record Library</h1>
+        <div id="input">
+
+            <!--<form id="form" action="">-->
+                <label for="albumInput">Album Title:</label>
+                <input type="text" id="albumInput" name="album" value="test"><br><br>
+                <label for="artistInput">Artist Name:</label>
+                <input type="text" id="artistInput" name="artistInput" value="test"><br><br>
+                <label for="collectedInput">In Collection?</label>
+                <input type="checkbox" id="collectedInput"></input><br><br>
+                <label for="spotifyInput">Spotify:</label>
+                <input type="text" id="spotifyInput" name="spotifyInput" value="https://www.spotify.com"><br><br>
+                <input type="button" id="addAlbumBtn" value="Add to Library">
+              <!--</form>-->
+
+            <table id="library-table" style="min-width: 680px; margin: 2rem">
+            <thead>
+              <tr>
+                <th>Album</th>
+                <th>Artist</th>
+                <th>Collected</th>
+                <th>Spotify</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+                <!---table will go here--->
+            </tbody>
+          </table>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
